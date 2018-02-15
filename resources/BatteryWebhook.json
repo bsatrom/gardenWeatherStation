@@ -1,0 +1,16 @@
+{
+  "event": "BatteryState",
+  "url": "http://api.everlive.com/v1/4Mf3STrDKnu6qeSf/BatteryState",
+  "requestType": "POST",
+  "headers": {
+    "Authorization": "Bearer: ****",
+    "Cache-Control": "no-cache"
+  },
+  "form": {
+    "Alert": "{{a}}",
+    "Charge": "{{c}}",
+    "Voltage": "{{v}}",
+    "DeviceId": "{{SPARK_CORE_ID}}"
+  },
+  "mydevices": true
+}

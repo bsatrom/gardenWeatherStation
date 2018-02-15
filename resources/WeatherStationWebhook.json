@@ -1,0 +1,22 @@
+{
+  "event": "SensorReading",
+  "url": "http://api.everlive.com/v1/4Mf3STrDKnu6qeSf/Readings",
+  "requestType": "POST",
+  "headers": {
+    "Authorization": "Bearer: *****",
+    "Cache-Control": "no-cache"
+  },
+  "form": {
+    "AirTemperature": "{{at}}",
+    "Humidity": "{{h}}",
+    "Pressure": "{{p}}",
+    "Altitude": "{{a}}",
+    "Rainfall": "{{r}}",
+    "SoilMoisture": "{{sm}}",
+    "SoilTemperature": "{{st}}",
+    "WindDirection": "{{wd}}",
+    "WindSpeed": "{{ws}}",
+    "DeviceId": "{{SPARK_CORE_ID}}"
+  },
+  "mydevices": true
+}
